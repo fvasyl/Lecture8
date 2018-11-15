@@ -11,4 +11,5 @@
 */
 
 insert into DBVersions (dbVersion, StartDate, EndDate)
-($(DBversion),getdate(),null)
+values ($(DBversion),getdate(),null)
+go
