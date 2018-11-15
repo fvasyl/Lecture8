@@ -92,4 +92,7 @@
   <ItemGroup>
     <PreDeploy Include="Script.PreDeployment1.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
+  </ItemGroup>
 </Project>
