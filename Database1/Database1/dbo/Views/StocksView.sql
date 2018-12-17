@@ -1,6 +1,5 @@
 ﻿
 create view dbo.StocksView
-with schemabinding
 as 
 select 
 	  MedicineId
@@ -10,6 +9,4 @@ from dbo.StockChanges
 group by MedicineId
 
 GO
-CREATE UNIQUE CLUSTERED INDEX [IX_StockView]
-    ON [dbo].[StocksView]([MedicineId] ASC);
 
